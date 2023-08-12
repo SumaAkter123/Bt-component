@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5 component practice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+ <div class="container">
+    <h1>Accordion#</h1>
+    <div class="accordion">
+        <!--accordion item1 start-->
+        <div class="accordion-item1">
+            <h2 class="accordion-button" data-bs-target="#item1" data-bs-toggle="collapse">accordion heading1</h2>
+            <div class="accordion-collapse collapse show" id="item1">
+            <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, praesentium quae! Voluptas obcaecati ad ab eligendi voluptates fuga sit eos dolore! Voluptatem, libero unde mollitia eius asperiores quas nam sed exercitationem eligendi vero! Nemo explicabo laborum assumenda numquam ipsa earum amet sequi! A, fugit mollitia soluta quod aut quia? Repellendus sunt omnis consequuntur sint similique. Eius saepe dolorem laboriosam, facilis at consequatur dolorum modi ipsum earum provident ducimus fugit repellat aliquid illo quam placeat nulla corrupti ipsa quibusdam? Sequi, voluptates. Doloremque hic amet eveniet facilis illo quos eaque dolores ea voluptates obcaecati vel soluta fugit et alias eius, tenetur non nesciunt corporis necessitatibus tempora dignissimos! Facilis reprehenderit aliquid optio sit, pariatur, nisi ea reiciendis necessitatibus iste libero id harum, laborum quisquam qui quibusdam totam ullam nostrum et assumenda minus at asperiores excepturi inventore quo! Ex quod quaerat tempore eos at, aliquam ullam eum quasi aperiam, harum repellendus assumenda saepe deleniti?</p>
+            </div>
+            </div>
+        </div>
+<!--accordion item1 end-->
+<!--accordion item2 start-->
+    <div class="accordion-item2">
+            <h2 class="accordion-button" data-bs-target="#item2" data-bs-toggle="collapse">accordion heading2</h2>
+             <div class="accordion-collapse collapse" id="item2">
+             <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam laboriosam eaque natus voluptatum. Corrupti incidunt sequi minus, optio velit iure? Velit neque commodi ex pariatur quae possimus ipsa molestias officia nemo iure? Enim quas voluptas ea distinctio suscipit soluta fuga ratione nobis deleniti! Voluptatibus pariatur nobis illo ab, molestias ad officia aperiam magnam rerum expedita adipisci culpa laudantium deserunt vel a nisi, tempora suscipit autem ullam quas tenetur? Nisi, quaerat? Molestias facere nam iusto ut ratione eius consectetur magni repellat! Accusantium aut rem temporibus rerum ea molestias ut expedita? Commodi inventore ea, minus deleniti repudiandae ipsum at architecto! Esse!</p>    
+             </div>
+         </div>
+    </div>
+<!--accordion item2 end-->
+<!--accordion item3 start-->
+<div class="accordion-item3">
+        <h2 class="accordion-button" data-bs-target="#item3" data-bs-toggle="collapse">accordion heading3</h2>
+            <div class="accordion-collapse collapse" id="item3">
+                 <div class="accordion-body">
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio adipisci expedita iusto facilis cum fugit, voluptatum eos porro non soluta cumque voluptatem accusantium consequatur libero voluptates repellendus placeat, possimus eveniet reiciendis! Odit consectetur itaque repellat ea doloribus deserunt necessitatibus beatae quibusdam rerum veritatis dicta quam tempora nesciunt recusandae, modi facere, nihil amet blanditiis natus quasi, voluptatibus aliquam? Laboriosam odio quisquam facere commodi magnam asperiores delectus doloribus soluta quis aspernatur dignissimos ratione officia quo similique, sapiente impedit tenetur recusandae dicta ad saepe illum. Incidunt eum possimus, dolorum dicta est delectus. Et nobis molestias laboriosam sapiente. Quas itaque cumque aspernatur nostrum sapiente. Voluptates officia ab consectetur deserunt beatae voluptatem velit iste laborum, aperiam ipsam unde, natus cum, quasi officiis inventore mollitia dicta!</p>
+             </div>
+         </div>
+    </div>
+<!--accordion item3 end-->
+    </div>
+ </div>
+ 
+
+
+
+ <div class="container">
+    <h1>Alert#</h1>
+ <!--alert start-->
+    <div class="alert alert-danger">Alert primary</div>
+    <div class="alert alert-primary"> alert primary</div>
+    <div class="alert alert-secondary"> alert secondary</div>
+    <div class="alert alert-success"> alert-success</div>
+
+ <!--alert end-->
+ <!--show alert start-->
+ <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Show live alert</button>
+ <!--show alert end-->
+
+ <div class="alert alert-info" alert-dismissable fade show>
+ <span>hey Suma!you should check in on some of those fields below.and you guys subscribe my channel</span>
+ <button class="btn-close position-absolute top-1 end-0 pe-2" data-bs-dismiss="alert"></button>
+</div>
+    <h1>Breadcrumb#</h1>
+<!--breadcrumb start-->
+    <h2>Breadcrumb indicate the current page’s location</h2>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="">home</a></li>
+            <li class="breadcrumb-item"><a href="">sub page</a></li>
+            <li class="breadcrumb-item active" aria-current="page">last blog</li>
+
+        </ol>
+ <!--breadcrumb end--> 
+ <!--button start-->
+ <div class="container">
+    <h1>Button#</h1>
+    <button type="button"  class="btn btn-primary">button</button>
+    <button class="btn btn-danger">Reset</button>
+    <button class="btn btn-success btn-sm">small button</button>
+    <button class="btn btn-warning"> Submit</button>
+    <button type="button" class="btn btn-dark btn-lg">large button</button>
+
+ </div>
+ <!--button end--> 
+ <!--outline button start-->
+ <div class="container">
+    <h1>Outline button#</h1>
+    <button type="button" class="btn btn-outline-primary"> primary outline</button>
+    <button type="button" class="btn btn-outline-secondary">outline secondary</button>
+    <button type="button" class="btn btn-outline-danger btn-lg  disabled">danger disable</button>
+    <button type="button" class="btn btn-outline-info">outline info</button>
+ </div>
+ <!-- outline button end-->
+ <!--card start-->
+ <div class="container">
+    <h1>Card#</h1>
+    <div class="card">
+        <img src="imges/flower.jpg" alt="flower">
+        <div class="card-body">
+            <h2 class="card-title"> Card Title</h2>
+            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ab excepturi fugit accusantium iusto consequatur cum. Incidunt, quasi dolores, eligendi nesciunt quibusdam voluptates nobis repellat vel inventore, porro praesentium dolorum?</p>
+            <a href="" class="btn btn-warning"> Read More</a>
+
+        </div>
+    </div>
+ </div>
+ <!--card end-->
+ <!--carousel start-->
+ <h1>Carousel#</h1>
+ <div class="carousel slide" id="carouselID" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class=" carousel-indicators">
+            <button class="active" data-bs-target="#carouselID" data-bs-slide-to="0"></button>
+            <button data-bs-target="#carouselID" data-bs-slide-to="1"></button>
+            <button data-bs-target="#carouselID" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-item active">
+            <img src="imges/flower2.jpg" alt="flower2" class="d-block w-100" >
+            <div class="carousel-caption">
+                <h2> Carousel Slider Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, libero?</p>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <img src="imges/cat.jpg" alt="cat" class="d-block w-100" >
+            <div class="carousel-caption">
+                <h2> Carousel Slider Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, libero?</p>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <img src="imges/nature.jpg" alt="nature" class="d-block w-100" >
+            <div class="carousel-caption">
+                <h2> Carousel Slider Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, libero?</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#carouselID" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#carouselID" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+ </div>
+ <!--carousel end-->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html> 
